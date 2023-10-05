@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { DataContext } from "../context/DataContext";
-
+import './LoginPage.css'
 function LoginPage() {
   const {  loginSubmitHandler,loginDataChangeHandler } = useContext(DataContext);
   return (
