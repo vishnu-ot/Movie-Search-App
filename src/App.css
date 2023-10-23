@@ -1,0 +1,8 @@
+.main-page {
+  height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  /* background-image: url("background.png"); */
+  object-fit: fill;
+  /* background-repeat: no-repeat; */
+}

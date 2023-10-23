@@ -1,0 +1,46 @@
+.login-section {
+  width: 350px;
+  background-color: black;
+  opacity: 0.9;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-section .login-fields {
+  width: 320px;
+  height: 320px;
+  background-color: black;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.text-input {
+  border: none;
+  background-color: #333333;
+  margin: 5px;
+  padding: 10px;
+  height: 50px;
+  width: 314px;
+  outline: none;
+}
+.signing-btn {
+  margin-left: 5px;
+  background-color: red;
+  height: 50px;
+  width: 314px;
+  margin-top: 15px;
+  border: none;
+  color: white;
+}
+.forgot-psword {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
