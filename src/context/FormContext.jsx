@@ -6,12 +6,19 @@ export const FormContext = createContext();
 export const FormContextProvider = ({ children }) => {
   const { setInputFields, inputFields } = useContext(AuthContext);
   const [auth, setAuth] = useState(false);
+  console.log(auth, "useqq");
   const navigate = useNavigate();
   const formSubmitHandler = (e) => {
     e.preventDefault();
-    if (inputFields.username == "test" && inputFields.password == "test") {
+    if (inputFields.username === "test" && inputFields.password === "test") {
+      console.log("cliceee");
       setAuth(true);
       navigate("/");
+      setInputFields((prev) => {
+        return { ...prev, username: "", password: "" };
+      });
+    } else {
+      alert("invalid login details !");
     }
     // console.log(auth);
   };

@@ -13,7 +13,6 @@ function HomePage() {
       <button onClick={logoutHandler}>Logout</button>
       <div className="movie-search">
         <Searchinput />
-       
       </div>
       <DisplayMovie />
     </div>
