@@ -1,14 +1,14 @@
 .main-page {
   height: 100vh;
   width: 100%;
-  background-image: url("background.png");
+  background-image: url("https://raw.githubusercontent.com/vishnu-ot/Movie-Search-App/4007de8bbc85486458b565ea2404e25a48022ed3/public/background.png");
   object-fit: fill;
   /* background-repeat: no-repeat; */
 }
 .home-page {
   width: 100%;
   height: auto;
-  background-image: url("background.png");
+  background-image: url("https://raw.githubusercontent.com/vishnu-ot/Movie-Search-App/4007de8bbc85486458b565ea2404e25a48022ed3/public/background.png");
   /* background-color: blue; */
   object-fit: fill;
   /* background-repeat: no-repeat; */
