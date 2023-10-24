@@ -14,12 +14,21 @@ export const MovieContextProvider = ({ children }) => {
     // setFilteredList(response.data.results);
     // console.log("filtered list calling...,,..");
   };
+  const InitailMovieList = async () => {
+    const response = await axios(API_URL, {
+      params: { query: "super man" },
+    });
+    setMoviesList(response.data.results);
+    // setFilteredList(response.data.results);
+    // console.log("filtered list calling...,,..");
+  };
   useEffect(() => {
+    InitailMovieList()
     let timer = setTimeout(() => {
       if (searchInput) {
         fetchMovieList();
       }
-    }, 400);
+    }, 300);
 
     return () => {
       clearTimeout(timer);

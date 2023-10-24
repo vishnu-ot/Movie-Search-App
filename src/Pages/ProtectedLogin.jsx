@@ -2,17 +2,16 @@ import React, { useContext } from "react";
 import { FormContext } from "../context/FormContext";
 import { Navigate, Outlet } from "react-router-dom";
 
-function Protectedroute() {
+function ProtectedLogin() {
   const { auth } = useContext(FormContext);
-
   if (auth) {
-    return <Outlet />;
+    return <Navigate to="/" />;
   } else {
-    return <Navigate to="login" />;
+    return <Outlet />;
   }
   //   return (
-  //     <div>Protectedroute</div>
+  //     <div>ProtectedLogin</div>
   //   )
 }
 
-export default Protectedroute;
+export default ProtectedLogin;

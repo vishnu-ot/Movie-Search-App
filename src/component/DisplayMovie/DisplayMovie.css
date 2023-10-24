@@ -2,25 +2,29 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 80vh;
+ overflow-y: scroll;
 }
 .search-items {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 280px;
-  width: 280px;
+  height: 350px;
+  width: 350px;
   margin: 20px;
   padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .search-items img {
-  height: 200px;
-  width: 200px;
+  height: 350px;
+  width: 350px;
   object-fit: contain;
 }
 .item-enlarge:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 .item-enlarge {
   transition: all 1s;

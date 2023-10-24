@@ -1,10 +1,28 @@
-.header-section{
-    width: 100%;
-    /* background-color: black; */
-    opacity: 0.7;
-    height: 90px;
-   
+.header-section {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  /* background-color: black; */
+  opacity: 0.7;
+  height: 90px;
+  /* display: flex;
+  justify-content: space-between; */
 }
-.header-section h3{
-   color: red;
+.header-section h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.header-section .logout-btn {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  margin-right: 20px;
+  background-color: red;
+  color: azure;
+  margin-top: 5px;
+  border-radius: 40%;
+  padding: 10px;
+  border: none;
 }

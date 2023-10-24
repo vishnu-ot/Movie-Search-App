@@ -1,3 +1,9 @@
+.search-input-section {
+  position: sticky;
+  top: 0;
+
+}
+
 .search-input {
   margin-bottom: 20px;
   width: 700px;
@@ -5,4 +11,16 @@
   border-radius: 10px;
   border: none;
   outline: none;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.close-butn {
+  color: white;
+  background-color: red;
+  margin-left: -30px;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
 }

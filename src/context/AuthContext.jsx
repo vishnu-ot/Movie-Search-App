@@ -6,7 +6,7 @@ export const AuthProvider = ({ children }) => {
     username: "",
     password: "",
   });
-  console.log(inputFields);
+
   return (
     <AuthContext.Provider value={{ setInputFields, inputFields }}>
       {children}

@@ -5,12 +5,11 @@ import "./HomePage.css";
 import DisplayMovie from "../../component/DisplayMovie/DisplayMovie";
 function HomePage() {
   const { auth, setAuth } = useContext(FormContext);
-  const logoutHandler = () => {
-    setAuth(false);
-  };
+
   return (
     <div className="home-page">
-      <button onClick={logoutHandler}>Logout</button>
+      <div className="logout-btn"></div>
+
       <div className="movie-search">
         <Searchinput />
       </div>

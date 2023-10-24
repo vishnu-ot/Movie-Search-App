@@ -14,7 +14,7 @@ function DisplayMovie() {
               e.target.src = "image.jpg";
             }}
           />
-          <p className="title item-enlarge" style={{ color: "black", textAlign:'center'}}>
+          <p className="title item-enlarge" style={{ color: "white", textAlign:'center', marginTop:"10px"}}>
             {data.title ? data.title : "This is your filim"}
           </p>
         </div>
