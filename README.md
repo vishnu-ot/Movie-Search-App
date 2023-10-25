@@ -1,8 +1,7 @@
-# React + Vite
+# Movie Search App
+Live link : https://movie-search-app-seven-pi.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is sample Movie search app using React js
+# Technologies : React JS, CSS
+I have used to craete this by various react hooks like useContext , React router dom and Protected routing method ,axios etc .
+We can login to this app by using username and password as " test "  . We can search moves here . 
